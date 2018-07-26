@@ -13,4 +13,4 @@ Written in shell
 - Looking for some other uploading tools
 
 ### Known issue  
-If ARM of your VPS or PC are too low, that maybe make OOM problem
+If RAM of your VPS or PC are too low, that maybe make OOM problem
