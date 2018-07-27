@@ -25,3 +25,8 @@ aria2c --on-download-complete=/yourpath/autoupload.sh
 
 ### Known issue  
 If RAM of your VPS or PC are too low, that maybe make OOM problem
+### Digression  
+Maybe I want to rewrite it with python (Because I Using shell is very unaccustomed🙈🙈🙈
+
+
+
