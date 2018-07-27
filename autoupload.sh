@@ -18,7 +18,7 @@ mkdir -p ${rclone}${dp}
 count=1
 while(( ${count} < 3 ))
 do
-	rclone -v move ${path} ${drivename}:${server}${dp} >> ${logpath}/${filename}.log
+	rclone -v move "${path}" "${drivename}":"${server}${dp}" >> ${logpath}/${filename}.log
     return_code=${?}
     if [ ${return_code} == 0 ]
     then
